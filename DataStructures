@@ -1,0 +1,18 @@
+thislist = ["blue", "orange", "green", "brown", "red"]
+print(thislist)
+
+print(thislist[3])
+
+thisdict = {
+  "brand": "Chevy",
+  "model": "Impala",
+  "year": 1970
+}
+thisdict.update({"year": 2021})
+
+thisset = {"Geo", "Ana", "Chey"}
+
+print(len(thisset))
+
+thistuple = ("apple", "banana", "cherry")
+print(len(thistuple))
